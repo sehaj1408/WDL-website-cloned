@@ -1,0 +1,138 @@
+@import url('~/src/App.css');
+
+/* home page */
+.home {
+    background-color: #121217;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .home-content {
+    
+    color: #FFFFFF;
+    font-family: href="https://fonts.googleapis.com/css?family=Inter";
+    z-index: 2;
+  }
+  
+  .home-maintext {
+    animation: fadeIn 3s;
+    font-size: 68px;
+    
+  }
+  
+  .home-subtext {
+    animation: fadeIn 4s;
+    font-size: 20px;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  
+    from { transform : translateY(20%) }
+    to   { transform : translateY(0%) }
+  }
+  
+  .left-circle {
+    animation: leftCircleFadeIn 2s;
+    height: 70vh;
+    width: 70vh;
+    background:linear-gradient(#FFEDED, #121217);
+    border-radius: 50%;
+    position: absolute;
+    top:20vh;
+    left:-40vh;
+    z-index: 0;
+  }
+  
+  .right-circle {
+    animation: rightCircleFadeIn 2s;
+    height: 70vh;
+    width: 70vh;
+    background:linear-gradient(#FFEDED, #121217);
+    border-radius: 50%;
+    position: absolute;
+    top:20vh;
+    right:-40vh;
+    z-index: 0;
+  }
+  
+  @keyframes rightCircleFadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  
+    from { transform : translateX(50%) }
+    to   { transform : translateY(0%) }
+  }
+  
+  @keyframes leftCircleFadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  
+    from { transform : translateX(-50%) }
+    to   { transform : translateY(0%) }
+  }
+  
+
+.nav{
+    position: absolute;
+    right: 50px;
+    top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__item{
+
+}
+
+.nav__item > a{
+    color: white;
+    text-decoration: none;
+
+}
+.nav__item > a:hover{
+    /* color: white; */
+    text-decoration: underline;
+
+}
+
+.nav__item > button{
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: var(--blue);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+.nav__item > button:hover{
+    cursor: pointer;
+
+}
+
+
+.figures > img{
+    width: 300px;
+}
+.figures__left{
+    position: absolute;
+    top:20vh;
+    left:10vh;
+    z-index: 2;
+
+}
+.figures__right{
+    position: absolute;
+    transform: scaleX(-1);
+    top:20vh;
+    right:10vh;
+    z-index: 2;
+}

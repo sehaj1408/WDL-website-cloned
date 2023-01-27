@@ -1,3 +1,13 @@
+
+  *, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    --blue: #2945FF;
+    --white: #ffffff;
+  }
+
+
 .App {
   text-align: center;
 }
