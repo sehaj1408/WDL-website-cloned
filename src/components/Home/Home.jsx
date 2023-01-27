@@ -19,10 +19,10 @@ const Home = () => {
                     <span class="right-circle"></span>
                 </div>
 
-                {/* <div className='figures'>
+                <div className='figures'>
                     <img src="/images/home_figure.png" alt="homedab" className='figures__left' />
                     <img src="/images/home_figure.png" alt="homedab" className='figures__right' />
-                </div> */}
+                </div>
                 
             </div>
         </div>

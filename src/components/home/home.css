@@ -15,18 +15,24 @@
     
     color: #FFFFFF;
     font-family: href="https://fonts.googleapis.com/css?family=Inter";
-    z-index: 2;
+    
   }
   
   .home-maintext {
     animation: fadeIn 3s;
     font-size: 68px;
+    position: relative;
+    text-align: center;
+    z-index: 2;
     
   }
   
   .home-subtext {
     animation: fadeIn 4s;
     font-size: 20px;
+    position: relative;
+    text-align: center;
+    z-index: 2;
   }
   
   @keyframes fadeIn {
@@ -120,19 +126,19 @@
 
 
 .figures > img{
-    width: 300px;
+    width: 250px;
 }
 .figures__left{
     position: absolute;
-    top:20vh;
-    left:10vh;
-    z-index: 2;
+    top:35vh;
+    left:10px;
+    z-index: 1;
 
 }
 .figures__right{
     position: absolute;
     transform: scaleX(-1);
-    top:20vh;
-    right:10vh;
-    z-index: 2;
+    top:35vh;
+    right:10px;
+    z-index: 1;
 }
