@@ -2,7 +2,7 @@
 
 /* home page */
 .home {
-    background-color: #121217;
+    background-color: var(--bg);
     min-height: 100vh;
     display: flex;
     align-items: center;
