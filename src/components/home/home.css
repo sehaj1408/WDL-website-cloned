@@ -2,7 +2,7 @@
 
 /* home page */
 .home {
-    background-color: #121217;
+    background-color: var(--bg);
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -32,6 +32,7 @@
     font-size: 20px;
     position: relative;
     text-align: center;
+    margin-top: 10px;
     z-index: 2;
   }
   
@@ -126,19 +127,79 @@
 
 
 .figures > img{
-    width: 250px;
+    width: 400px;
 }
 .figures__left{
+    animation: leftFigureFadeIn 2s;
     position: absolute;
-    top:35vh;
-    left:10px;
+    top:50%;
+    transform: translateY(-50%);
+    left:calc((((100vw - 640px) / 2) - 400px) / 2);
     z-index: 1;
 
 }
 .figures__right{
+    animation: rightFigureFadeIn 2s;
     position: absolute;
-    transform: scaleX(-1);
-    top:35vh;
-    right:10px;
+    top:50%;
+    transform: translateY(-50%) scaleX(-1);
+    right:calc((((100vw - 640px) / 2) - 400px) / 2);
     z-index: 1;
 }
+@keyframes rightFigureFadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  
+    from { transform : translateY(-50%) scaleX(-1) translateX(-50%) }
+    to   { transform : translateY(-50%) scaleX(-1) translateX(0)}
+  }
+  
+  @keyframes leftFigureFadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  
+    from { transform : translateY(-50%) translateX(-50%) }
+    to   { transform : translateY(-50%) translateX(0)}
+  }
+@media screen and (max-width: 1500px) {
+    .figures > img{
+        width: 350px;
+    }
+    .figures__left{
+        left:calc((((100vw - 640px) / 2) - 350px) / 2);
+    
+    }
+    .figures__right{
+        right:calc((((100vw - 640px) / 2) - 350px) / 2);
+    } 
+    
+}
+
+@media screen and (max-width: 1300px) {
+    .figures > img{
+        width: 250px;
+    }
+    .figures__left{
+        left:calc((((100vw - 640px) / 2) - 250px) / 2);
+    
+    }
+    .figures__right{
+        right:calc((((100vw - 640px) / 2) - 250px) / 2);
+    } 
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .home-maintext {
+        width: 500px;
+    }
+    .figures__left{
+        left:calc((((100vw - 500px) / 2) - 250px) / 2);
+    
+    }
+    .figures__right{
+        right:calc((((100vw - 500px) / 2) - 250px) / 2);
+    } 
+}
+
+/*ASDASDASDASD*/
