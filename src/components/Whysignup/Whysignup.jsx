@@ -50,5 +50,3 @@ const Whysignup = () => {
       </div>
     );
 };
-
-export default Whysignup
