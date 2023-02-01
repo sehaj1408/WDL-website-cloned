@@ -1,17 +1,16 @@
 
 :root {
-    --black: rgba(0, 0, 0, 1);
-    --alto: rgba(217, 217, 217, 1);
-    --white: rgba(255, 255, 255, 1);
     --font-size-m: 8px;
     --font-size-l: 10px;
     --font-size-xl: 20px;
+    color: #FFFFFF;
   }
   
   .home-container {
+    background-color: var(--bg);
     display: flex;
     flex-wrap: wrap;
-    font-family: "Red Hat Display", sans-serif;
+    font-family: href="https://fonts.googleapis.com/css?family=Inter";
   }
   
   .about {
@@ -28,11 +27,46 @@
   
   .what-is-title {
     padding: 1.6rem 0rem;
-    font-size: 1.6rem;
-    font-weight: 800;
+    font-size: 4rem;
+    font-weight: 550;
   }
-  
+
+  a:link {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  .left {
+    border-radius: 15px;
+    background-color: #EDF5FF;
+    display: inline-flex;
+  } 
+
+  .right {
+    border-radius: 15px;
+    background-color: #F5EDFF;
+    display: inline-flex;
+  }
+
+  .img-left{
+    position: relative;
+    text-align: right;
+  }
+
+  .img-right{
+    position: relative;
+    text-align: right;
+  }
+
   .details-container {
+    color: #000000;
     padding: 2rem 0rem;
     display: flex;
     justify-content: space-around;
