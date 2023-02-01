@@ -1,1 +1,36 @@
 @import url('~/src/App.css');
+
+.container {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 12.5%;
+    background-color: var(--bg);
+    padding-left:  9.375%; 
+    padding-right: 9.375%; 
+    gap: 12.5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+div{
+   text-align: center;
+   justify-content: center; 
+   white-space: nowrap;
+   
+}
+h1 {
+    font-size: 4em;
+    font-weight: bolder;
+}
+h2 {
+    font-size: 1em;
+    font-weight: bolder;
+}
+h3{
+    font-size: 1em;
+    font-weight: normal;
+    opacity: 0.8;
+}
+h1, h2, h3{
+    color: var(--white);
+    font-family: href="https://fonts.googleapis.com/css?family=Inter";
+}
