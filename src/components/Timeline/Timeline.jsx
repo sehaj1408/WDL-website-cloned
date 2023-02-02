@@ -2,7 +2,7 @@ import './timeline.css';
 
 const Timeline = () => {
     return (
-        <div className='timeline'>
+        <div className='timeline' id="t">
             <div className="timeline-content">
                 <h2 className="timeline-maintext">Timeline</h2> 
                 <p className='timeline-subtext'>Cupcake danish tiramisu powder soda ginger cake. Dessert carrot <br></br> cake tartsweet marzipan for fruitcake.</p> 

@@ -8,13 +8,13 @@ import Partners from './components/Partners/Partners.jsx';
 
 function App() {
   return (
-    <>
-    <Home/>
-    <Figures />
-    <WhySignUp />
-    <Timeline />
-    <Partners />
-    </>
+    <div>
+      <Home />
+      <Figures id="f"/>
+      <WhySignUp />
+      <Timeline />
+      <Partners />
+    </div>
   );
 }
 
