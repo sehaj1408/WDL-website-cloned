@@ -11,29 +11,29 @@ const Whysignup = () => {
                     </h1>
                     <h3>Placeholder</h3>
                 </div>
-          <div className="details-container">
-            <Slide left>
-              <div className="details-left">
-                <h3>Engagement at Scale</h3>
-                <p>
-                  PlaceHolder
-                  <br />
-                </p>
-  
-              </div>
-            </Slide>
-            <Slide right>
-              <div className="details-right">
-                <h3>Connected with Clients</h3>
-                <p>
-                  Placeholder
-                  <br />
-                </p>
-              </div>
-            </Slide>
-          </div>
-        </section>
-      </div>
+                <div className="details-container">
+                    <div left>
+                    <div className="details-left">
+                        <h3>Engagement at Scale</h3>
+                        <p>
+                        PlaceHolder
+                        <br />
+                        </p>
+        
+                    </div>
+                    </div>
+                    <div right>
+                    <div className="details-right">
+                        <h3>Connected with Clients</h3>
+                        <p>
+                        Placeholder
+                        <br />
+                        </p>
+                    </div>
+                    </div>
+                </div>
+            </section>
+        </div>
     );
 };
 
