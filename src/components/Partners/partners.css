@@ -1,1 +1,49 @@
 @import url('~/src/App.css');
+.partnersHeader{
+    text-align: center;
+    justify-content: center; 
+    white-space: nowrap;
+    background-color: var(--bg);
+    padding-left:  9.375%; 
+    padding-right: 9.375%; 
+}
+
+.container2 {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 12.5%;
+    background-color: var(--bg);
+    padding-left:  9.375%; 
+    padding-right: 9.375%; 
+    gap: 12.5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.figure--block2{
+    text-align: center;
+    justify-content: center; 
+    white-space: nowrap;
+}
+#partnersh1 {
+    line-height: 185%;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+#partnersh4{
+    font-size: 1.25em;
+    font-weight: normal;
+    opacity: 0.8;
+    line-height: 180%;
+}
+#partnersh1, #partnersh4, #bottomTag{
+    color: var(--white);
+    font-family: href="https://fonts.googleapis.com/css?family=Inter";
+}
+
+#bottomTag{
+    padding-top: 10px;
+    font-size: 0.87em;
+    font-weight: normal;
+    line-height: 180%;
+    background-color: var(--bg);
+}
