@@ -6,7 +6,7 @@ const Home = () => {
             <nav className='nav'>
                 <div className='nav__item'><a href="#w">Why Attend</a></div>
                 <div className='nav__item'><a href="#t">Timeline</a></div>
-                <div className='nav__item'><a href="#c">Partner</a></div>
+                <div className='nav__item'><a href="#p">Partner</a></div>
                 <div className='nav__item'><a href="#d">FAQ</a></div>
                 <div className='nav__item'><button>Sign Up</button></div>
             </nav>

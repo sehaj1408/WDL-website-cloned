@@ -2,7 +2,7 @@
 
 .timeline {
     background-color: var(--bg);
-    min-height: 100vh;
+    min-height: fit-content;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,7 +15,7 @@
     .timeline-content {
         color: #FFFFFF;
         font-family: href="https://fonts.googleapis.com/css?family=Inter";  
-        padding: 40px;
+        padding-bottom: 40px;
         align-content: center;
     }
 

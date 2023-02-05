@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <Home />
-      <Figures id="f"/>
+      <Figures />
       <WhySignUp />
       <Timeline />
       <Partners />

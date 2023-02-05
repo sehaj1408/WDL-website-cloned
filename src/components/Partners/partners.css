@@ -2,10 +2,8 @@
 .partnersHeader{
     text-align: center;
     justify-content: center; 
-    white-space: nowrap;
     background-color: var(--bg);
-    padding-left:  9.375%; 
-    padding-right: 9.375%; 
+    padding: 50px 100px 20px 100px;
 }
 
 .container2 {
@@ -18,6 +16,8 @@
     gap: 12.5%;
     padding-top: 3%;
     padding-bottom: 3%;
+    margin: auto;
+    justify-content: center;
 }
 .figure--block2{
     text-align: center;
@@ -25,9 +25,12 @@
     white-space: nowrap;
 }
 #partnersh1 {
-    line-height: 185%;
+    line-height: 50px;
     font-size: 2.5em;
     font-weight: bolder;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
 }
 #partnersh4{
     font-size: 1.25em;

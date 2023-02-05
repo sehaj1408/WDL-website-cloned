@@ -2,7 +2,7 @@ import './partners.css';
 
 const Partners = () => {
     return (
-        <div class="partnersHeader" id="f">
+        <div class="partnersHeader" id="p">
 
             <div>
             <h1 id="partnersh1">Over X companies are partnered for WDL</h1>
