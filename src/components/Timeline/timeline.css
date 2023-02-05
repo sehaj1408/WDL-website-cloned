@@ -37,6 +37,7 @@
         text-align: center;
         margin-top: 10px;
         z-index: 2;
+        opacity: 0.8;
     }
 
 .timeline-partners {
@@ -95,7 +96,13 @@
     z-index: 2;
 }
 
-    
-
-
-
+@media (max-width: 1200px) {
+    .timeline-partners {
+        grid-template-columns: 1fr;
+        margin: auto;
+        width: fit-content;
+    }
+    .timeline-partners-text {
+        display: none;
+    }
+}
